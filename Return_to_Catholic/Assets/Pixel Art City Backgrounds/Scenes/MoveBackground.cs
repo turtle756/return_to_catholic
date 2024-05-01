@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveBackground : MonoBehaviour {
+public class MoveBackground_PIXEL_ART_CITY : MonoBehaviour {
 
 
 
