@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Pixel Art Infinite Runner/Scenes/Volcano.unity
+- path: Assets/Scenes/MAIN_Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
