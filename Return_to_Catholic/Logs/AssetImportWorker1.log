@@ -15,7 +15,7 @@ C:/Users/rlarl/Documents/GitHub/return_to_catholic/Return_to_Catholic
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50676
+51355
 Successfully changed project path to: C:/Users/rlarl/Documents/GitHub/return_to_catholic/Return_to_Catholic
 C:/Users/rlarl/Documents/GitHub/return_to_catholic/Return_to_Catholic
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/rlarl/Documents/GitHub/return_to_catholic/Return_to_Catholic
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9472] Host "[IP] 221.139.94.196 [Port] 0 [Flags] 2 [Guid] 3000484599 [EditorId] 3000484599 [Version] 1048832 [Id] WindowsEditor(7,�źϾƾȳ�) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10796] Host "[IP] 221.139.94.196 [Port] 0 [Flags] 2 [Guid] 3187811392 [EditorId] 3187811392 [Version] 1048832 [Id] WindowsEditor(7,�źϾƾȳ�) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9472] Host "[IP] 221.139.94.196 [Port] 0 [Flags] 2 [Guid] 3000484599 [EditorId] 3000484599 [Version] 1048832 [Id] WindowsEditor(7,�źϾƾȳ�) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10796] Host "[IP] 221.139.94.196 [Port] 0 [Flags] 2 [Guid] 3187811392 [EditorId] 3187811392 [Version] 1048832 [Id] WindowsEditor(7,�źϾƾȳ�) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 14.82 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 11.31 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.26f1 (ec6cd8118806)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009427 seconds.
-- Loaded All Assemblies, in  0.395 seconds
+Registered in 0.013770 seconds.
+- Loaded All Assemblies, in  0.500 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 258 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.293 seconds
-Domain Reload Profiling: 686ms
-	BeginReloadAssembly (102ms)
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1178ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (101ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (163ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (178ms)
-				TypeCache.ScanAssembly (164ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (293ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (680ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (224ms)
+		SetupLoadedEditorAssemblies (604ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
+			InitializePlatformSupportModulesInManaged (396ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (155ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,56 +120,57 @@ Domain Reload Profiling: 686ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.898 seconds
-Refreshing native plugins compatible for Editor in 13.83 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.001 seconds
+Refreshing native plugins compatible for Editor in 5.57 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.732 seconds
-Domain Reload Profiling: 1626ms
-	BeginReloadAssembly (196ms)
+- Finished resetting the current domain, in  0.893 seconds
+Domain Reload Profiling: 1889ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (609ms)
-		LoadAssemblies (440ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (675ms)
+		LoadAssemblies (474ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (275ms)
-			TypeCache.Refresh (226ms)
-				TypeCache.ScanAssembly (204ms)
+		AnalyzeDomain (327ms)
+			TypeCache.Refresh (275ms)
+				TypeCache.ScanAssembly (239ms)
 			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (733ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (893ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (549ms)
+		SetupLoadedEditorAssemblies (659ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (353ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (397ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 7.55 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5673 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 101 unused Assets / (0.9 MB). Loaded Objects now: 6116.
-Memory consumption went from 219.9 MB to 219.0 MB.
-Total: 4.986700 ms (FindLiveObjects: 0.781100 ms CreateObjectMapping: 0.830300 ms MarkObjects: 2.927000 ms  DeleteObjects: 0.447000 ms)
+Unloading 5674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 101 unused Assets / (0.9 MB). Loaded Objects now: 6120.
+Memory consumption went from 229.4 MB to 228.4 MB.
+Total: 4.964700 ms (FindLiveObjects: 0.745200 ms CreateObjectMapping: 0.686300 ms MarkObjects: 3.047500 ms  DeleteObjects: 0.484600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,250 +188,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7379.095066 seconds.
+  Time since last request: 9595.851211 seconds.
+  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 1/bg02.png
+  artifactKey: Guid(e92c385dcc6e28a4db796bf55fdd6218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1/bg02.png using Guid(e92c385dcc6e28a4db796bf55fdd6218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0270a4e629e78d81322b614d8273f5') in 0.100931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
   path: Assets/Pixel Art City Backgrounds/Backgrounds/City 1/bg05.png
-  artifactKey: Guid(eb45bfacc582a274bad9f441f5971b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1/bg05.png using Guid(eb45bfacc582a274bad9f441f5971b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e89831c9130c7ac46950bea8c30d09ad') in 0.226180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 1 (night)/bg01.png
-  artifactKey: Guid(c7f078c7fe5bdbf42b97f011ce6815e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1 (night)/bg01.png using Guid(c7f078c7fe5bdbf42b97f011ce6815e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '148860558a8f3b473acac0a413ccd672') in 0.025249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Art City Backgrounds/Scenes/1.unity
-  artifactKey: Guid(c81dee02d29f3a24f8f2e2064eb4fd3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Scenes/1.unity using Guid(c81dee02d29f3a24f8f2e2064eb4fd3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb9d61132ecb02c77d01ad80c49608c9') in 0.010732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
-  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b4d778586e1f82e179a46dd2259db893') in 0.055063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (night)/bg04.png
-  artifactKey: Guid(5e4f89714785a104690386373f735f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (night)/bg04.png using Guid(5e4f89714785a104690386373f735f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '318298323c7aabe81123c9e01a3fd27c') in 0.024341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/city 1 (day)/bg04.png
-  artifactKey: Guid(1846a6011e67bd744a5aad931b0fb441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/city 1 (day)/bg04.png using Guid(1846a6011e67bd744a5aad931b0fb441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf5cd53eb7c4a4785b4ad736ba8443ab') in 0.019079 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (night)/bg02.png
-  artifactKey: Guid(e4314c1849a192e4e8d6312046eff1f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (night)/bg02.png using Guid(e4314c1849a192e4e8d6312046eff1f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08c18bf6ccf7e52421ace72a41a1b893') in 0.037051 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 1 (night)/bg0sky.png
-  artifactKey: Guid(275ca2df32f8f5c43a9765b397464371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1 (night)/bg0sky.png using Guid(275ca2df32f8f5c43a9765b397464371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b11b3cbc631b3d65af5e32dbf189f3f8') in 0.019072 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2/bg03.png
-  artifactKey: Guid(c15ab9e4c28719e48a65fc832c816fc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2/bg03.png using Guid(c15ab9e4c28719e48a65fc832c816fc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6eaf80998b56f3ad8fc7fd186921892') in 0.022057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/city 1 (day)/bg05.png
-  artifactKey: Guid(87bdcf546746bef4ca4b4d51757c2a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/city 1 (day)/bg05.png using Guid(87bdcf546746bef4ca4b4d51757c2a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf52a28e90cb6669970509340e45dfff') in 0.032920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2 (sunset)/bg04street.png
-  artifactKey: Guid(0c261bcd6a53d3b4da6bfc9471baaa37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2 (sunset)/bg04street.png using Guid(0c261bcd6a53d3b4da6bfc9471baaa37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '569b4a641d700401e46ee4b4f507099b') in 0.020368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2 (sunset)/bg03.png
-  artifactKey: Guid(66831c8e76a36344f81b1234474ce820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2 (sunset)/bg03.png using Guid(66831c8e76a36344f81b1234474ce820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28bb601fc27a308cbce6f6f11333ec2c') in 0.017521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (night)/bg06.png
-  artifactKey: Guid(995318120e2d8bb41a4bdbfc6d8ba8a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (night)/bg06.png using Guid(995318120e2d8bb41a4bdbfc6d8ba8a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8390b868b76e2ab49479b59940a529ac') in 0.030694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2/lights01.png
-  artifactKey: Guid(9e692e0f9f668604589e7b05437ac1ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2/lights01.png using Guid(9e692e0f9f668604589e7b05437ac1ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ace437dc5391d9a170d67c344a07166') in 0.016121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (night)/bg01.png
-  artifactKey: Guid(440d63f828ab9d845b42d43cee0b140c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (night)/bg01.png using Guid(440d63f828ab9d845b42d43cee0b140c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22fd92688d46a34c7353c851fc862814') in 0.020001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (day)/bg0Base.png
-  artifactKey: Guid(04d9a445ca79bc44b97f04484f63d90a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (day)/bg0Base.png using Guid(04d9a445ca79bc44b97f04484f63d90a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f2dd825d78e260ac66ad69fed2cf0b9') in 0.020361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2/bg0moon-and-stars.png
-  artifactKey: Guid(42aeb98c0e42cdb40a32b62bf9d5cdba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2/bg0moon-and-stars.png using Guid(42aeb98c0e42cdb40a32b62bf9d5cdba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ecc3e208fb0a3409fee35f0e50fbea5e') in 0.030689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (day)/bg08.png
-  artifactKey: Guid(9a31d65acc835ba438cf66a7ccec7925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (day)/bg08.png using Guid(9a31d65acc835ba438cf66a7ccec7925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c00185c5cab4023bde007b4fd7e82a85') in 0.021466 seconds
+  artifactKey: Guid(eb45bfacc582a274bad9f441f5971b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1/bg05.png using Guid(eb45bfacc582a274bad9f441f5971b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc10cf230e740df813c2a31709ca471d') in 0.015377 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (day)/bg04.png
-  artifactKey: Guid(24830dbbfe1b36c42828ca587130426b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (day)/bg04.png using Guid(24830dbbfe1b36c42828ca587130426b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57d797fa258541f93f26c708730e246c') in 0.021702 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (sunset)/bg0Clounds02.png
-  artifactKey: Guid(16757f30d4408494fb59b6cae1040b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (sunset)/bg0Clounds02.png using Guid(16757f30d4408494fb59b6cae1040b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12f32977e4b0619b9e60a46078f9d3d2') in 0.019413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (sunset.night)/bg02.png
-  artifactKey: Guid(5f33e4dd0db2edb409699aecc35793db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (sunset.night)/bg02.png using Guid(5f33e4dd0db2edb409699aecc35793db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '256a116313a683ca0d3f8aa475a5910d') in 0.024592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2 (sunset)/bg06.png
-  artifactKey: Guid(53452c0646fd6db41ba2ec960fc7732b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2 (sunset)/bg06.png using Guid(53452c0646fd6db41ba2ec960fc7732b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10ba7db41e684316d0d8e4f65049ef4e') in 0.021317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2/bg02light-streets.png
-  artifactKey: Guid(343f0fb9c50035344943e32fd7ad27a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2/bg02light-streets.png using Guid(343f0fb9c50035344943e32fd7ad27a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '004a94a655bf0cc96328abbe9759adc6') in 0.024235 seconds
+  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 1/bg0moon-and-stars.png
+  artifactKey: Guid(75bc2321f9425a84b8ce323307c88aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1/bg0moon-and-stars.png using Guid(75bc2321f9425a84b8ce323307c88aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c90aab66bdc05e0ff4bd18486ba7703') in 0.021607 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2 (night)/bg01.png
-  artifactKey: Guid(23910409e52270048b9e0a3781c164cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2 (night)/bg01.png using Guid(23910409e52270048b9e0a3781c164cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f0f10e196575a83ea58928a193c1925') in 0.017282 seconds
+  path: Assets/Pixel Art City Backgrounds/Backgrounds
+  artifactKey: Guid(6d3c895bea13f0943a59e1f7d6accc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art City Backgrounds/Backgrounds using Guid(6d3c895bea13f0943a59e1f7d6accc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f5d1ed1d62a13591d28a1c6931a691') in 0.000609 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99484d10d1b4c4ef2cf1d30941ab30f0') in 0.010863 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 1
+  artifactKey: Guid(167a21cb71cfc104eb05df23ee851281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1 using Guid(167a21cb71cfc104eb05df23ee851281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8395591c944e47baa06aff5627bc201') in 0.000656 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2/bg01.png
-  artifactKey: Guid(98d2c41b3cba6594ea8fe8821d7d41d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2/bg01.png using Guid(98d2c41b3cba6594ea8fe8821d7d41d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8bb4e4857f09638478f3f5e212a18236') in 0.019832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (night)/bg07.png
-  artifactKey: Guid(eb008faf45e990c4fa43d07680d2994b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 3 (night)/bg07.png using Guid(eb008faf45e990c4fa43d07680d2994b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e70bc11e8a4be0a0ae2592d14c5c69b') in 0.021405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/city 1 (day)/bg01.png
-  artifactKey: Guid(94f86777ff88b5e4d93854fb3ed4de21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/city 1 (day)/bg01.png using Guid(94f86777ff88b5e4d93854fb3ed4de21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e568baf6ef836b75877765bf9cda9406') in 0.018019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2/bg0SKY.png
-  artifactKey: Guid(df8806007b1aaa845a49ebb8cd8b2fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2/bg0SKY.png using Guid(df8806007b1aaa845a49ebb8cd8b2fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3418d45ef423517f62dcf1adea0a1d27') in 0.023316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 2 (night)/bg02light-streets.png
-  artifactKey: Guid(863cc4032a0bfd14ca63fb7dbd12d5e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 2 (night)/bg02light-streets.png using Guid(863cc4032a0bfd14ca63fb7dbd12d5e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9957da0ac51b43c2b5d99a03639f4b0e') in 0.020055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
+  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 1/bg0sky.png
+  artifactKey: Guid(ec7579b95d76ba74bbce5476fa986a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1/bg0sky.png using Guid(ec7579b95d76ba74bbce5476fa986a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1d9e184f16e9ef27cf7eea9110724e') in 0.013840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.925005 seconds.
+  path: Assets/Pixel Art City Backgrounds/Backgrounds/city 1 (day)/bg01.png
+  artifactKey: Guid(94f86777ff88b5e4d93854fb3ed4de21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art City Backgrounds/Backgrounds/city 1 (day)/bg01.png using Guid(94f86777ff88b5e4d93854fb3ed4de21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5eb0da94b8fc7224f9f75a23a7d76b') in 0.028146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Pixel Art City Backgrounds/Backgrounds/city 1 (day)/bg05.png
+  artifactKey: Guid(87bdcf546746bef4ca4b4d51757c2a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art City Backgrounds/Backgrounds/city 1 (day)/bg05.png using Guid(87bdcf546746bef4ca4b4d51757c2a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fed1ba8d37fb0f057e11a5730851db') in 0.020365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.864782 seconds.
+  path: Assets/Pixel Art City Backgrounds/Backgrounds/City 1 (night)/bg01.png
+  artifactKey: Guid(c7f078c7fe5bdbf42b97f011ce6815e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1 (night)/bg01.png using Guid(c7f078c7fe5bdbf42b97f011ce6815e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fb52378fdd048a4df068dccbfbceeb') in 0.022378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
   path: Assets/Pixel Art City Backgrounds/Backgrounds/City 1 (night)/bg05.png
-  artifactKey: Guid(d22ad2e46c439b543be7a01070e10b69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1 (night)/bg05.png using Guid(d22ad2e46c439b543be7a01070e10b69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72b4bd104538e13095892f742ae5a2e3') in 0.024120 seconds
+  artifactKey: Guid(d22ad2e46c439b543be7a01070e10b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Art City Backgrounds/Backgrounds/City 1 (night)/bg05.png using Guid(d22ad2e46c439b543be7a01070e10b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b84b9a05e327d036c0b7699cc58080') in 0.014924 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
