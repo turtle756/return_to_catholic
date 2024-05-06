@@ -423,6 +423,8 @@
 "Assets/Asset/Pixel Art Infinite Runner/Scenes/Game Demo/SpawnControl.cs"
 "Assets/Player/PlayerController.cs"
 "Assets/Project/starton.cs"
+"Assets/Scenes/Main-to-menu.cs"
+"Assets/Scenes/PanelController.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
